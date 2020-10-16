@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive;
+}
+
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #bcbcbc;
+}
+
+.app aside {
+  width: 320px;
+  height: 22rem;
+  background-color: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 5rem;
+  padding: 30px 20px
+}
+
+aside strong {
+  color: #333;
+  display: block;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+aside .input-block {
+  margin: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+aside .input-block label {
+  color: #acacac;
+  margin-right: 0.6rem;
+  margin-top: 10px
+}
+
+aside .input-block input {
+  color: #666;
+  border: 0;
+  border-bottom: 1px solid #bcbcbc;
+  height: 1.8rem;
+}
+
+aside button[type="submit"] {
+  display: block;
+  margin: 0 auto;
+  width: 9rem;
+  height: 3rem;
+  border-radius: 5rem;
+  border-style: none;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  background-color: #eee;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.2s
+}
+
+aside button[type="submit"]:hover {
+  background-color: #bcbcbc;
+}
+
+.app ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  list-style: none;
+}
+
+.app ul .user-list {
+  display: flex;
+  flex-direction: column;
+}
+
+.app ul li {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.8rem;
+  background-color: #fff;
+  box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.5);
+  border-radius: 2rem;
+  padding: 1rem 4rem;
+}
+
+.app ul .button {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+
+.app ul .button .edit,
+.app ul .button .delete {
+  height: 2rem;
+  width: 5rem;
+  border-radius: 2rem;
+  border-style: none;
+  background-color: #eee;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.app ul .button .edit:hover,
+.app ul .button .delete:hover {
+  background-color: #bcbcbc;
+}
+
+.app ul .button .edit {
+  margin-right: 1rem;
+}
+
+.app .sorteio {
+  padding: 1.5rem;
+  width: 10rem;
+  margin-top: 4rem;
+  margin-left: 4rem;
+  border-radius: 2rem;
+  border-style: none;
+  background-color: #39f;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.app .sorteio:hover {
+  background-color: #39d6f2;
+}
+
