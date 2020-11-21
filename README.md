@@ -14,7 +14,7 @@
 </ul>
 
 <h3>✏️ Teste</h3>
-<p>Para rodar o projeto, basta clonar este repositório, digitar no seu editor `yarn add` ou `npm install` para instalar todas as dependências e se direcionar para a URL: <strong>http://localhost:3000.</strong></p>
+<p>Para rodar o projeto, basta clonar este repositório, digitar no seu editor <strong>yarn add</strong> ou <strong>npm install</strong> para instalar todas as dependências e se direcionar para a URL: <strong>http://localhost:3000.</strong></p>
 
 <h3>📝 Licença</h3>
 <p>Este projeto está sob licença <a href="./LICENSE">MIT</a></p>
